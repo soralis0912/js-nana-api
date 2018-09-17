@@ -1,0 +1,19 @@
+{
+  "name": "js-nana-api",
+  "version": "0.0.0",
+  "description": "js-nana-api",
+  "main": "app.js",
+  "scripts": {
+    "build": "npx babel src -d dist --source-maps",
+    "start": "npx babel-node src/app.js"
+  },
+  "author": "soralis_nem",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  },
+  "dependencies": {
+    "axios": "^0.18.0"
+  }
+}
