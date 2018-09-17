@@ -1,6 +1,6 @@
 {
   "name": "js-nana-api",
-  "version": "0.0.1",
+  "version": "0.0.5",
   "description": "js-nana-api",
   "main": "src/app.js",
   "scripts": {

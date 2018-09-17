@@ -1,6 +1,6 @@
-import axiosBase from 'axios';
+const axiosBase= require("axios")
 
-module.exports = class nana {
+class nana {
     constructor() {
         this.axios = axiosBase.create({
             baseURL: 'https://jackson.nana-music.com/v2',
@@ -135,3 +135,4 @@ module.exports = class nana {
     };
 
 }
+module.exports = nana
